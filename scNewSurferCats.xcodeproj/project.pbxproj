@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C37BF6261797557300D95501 /* ccrAfterGameViewDetailedScoreBreakdown.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BF6251797557300D95501 /* ccrAfterGameViewDetailedScoreBreakdown.m */; };
+		C37BF62D1797CDCF00D95501 /* Surfboard1.png in Resources */ = {isa = PBXBuildFile; fileRef = C37BF62B1797CDCF00D95501 /* Surfboard1.png */; };
+		C37BF62E1797CDCF00D95501 /* Surfboard2.png in Resources */ = {isa = PBXBuildFile; fileRef = C37BF62C1797CDCF00D95501 /* Surfboard2.png */; };
+		C37BF62F1797CFCB00D95501 /* SurfLogoWithFrame57.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D88901794871200C6F702 /* SurfLogoWithFrame57.png */; };
+		C37BF6311797D09700D95501 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D888C179486F600C6F702 /* Default-568h@2x.png */; };
+		C37BF6341797D11A00D95501 /* ccrInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37BF6331797D11900D95501 /* ccrInfoViewController.m */; };
 		C39CD44417932AF700F291EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39CD44317932AF700F291EE /* UIKit.framework */; };
 		C39CD44617932AF700F291EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39CD44517932AF700F291EE /* Foundation.framework */; };
 		C39CD44817932AF700F291EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39CD44717932AF700F291EE /* CoreGraphics.framework */; };
@@ -18,9 +24,77 @@
 		C39CD45A17932AF700F291EE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD45917932AF700F291EE /* Default@2x.png */; };
 		C39CD45C17932AF800F291EE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD45B17932AF800F291EE /* Default-568h@2x.png */; };
 		C39CD45F17932AF800F291EE /* scNewSurferCats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C39CD45D17932AF800F291EE /* scNewSurferCats.xcdatamodeld */; };
+		C39CD49717932B6D00F291EE /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD46517932B6C00F291EE /* Background.png */; };
+		C39CD49817932B6D00F291EE /* Beach.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD46617932B6C00F291EE /* Beach.png */; };
+		C39CD49917932B6D00F291EE /* CircleOfHearts.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD46717932B6C00F291EE /* CircleOfHearts.png */; };
+		C39CD49A17932B6D00F291EE /* DarkRipplingSea.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD46817932B6C00F291EE /* DarkRipplingSea.png */; };
+		C39CD49B17932B6D00F291EE /* FlashOfLight.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD46917932B6C00F291EE /* FlashOfLight.png */; };
+		C39CD49C17932B6D00F291EE /* imageViewObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CD46B17932B6C00F291EE /* imageViewObject.m */; };
+		C39CD49D17932B6D00F291EE /* Life.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD46C17932B6C00F291EE /* Life.png */; };
+		C39CD49E17932B6D00F291EE /* MeltingRaft.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD46D17932B6C00F291EE /* MeltingRaft.png */; };
+		C39CD49F17932B6D00F291EE /* Mermaid2.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD46E17932B6C00F291EE /* Mermaid2.png */; };
+		C39CD4A017932B6D00F291EE /* Ocean.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD47017932B6C00F291EE /* Ocean.png */; };
+		C39CD4A117932B6D00F291EE /* PurpleGalaxy.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD47117932B6C00F291EE /* PurpleGalaxy.png */; };
+		C39CD4A217932B6D00F291EE /* Rock.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD47217932B6C00F291EE /* Rock.png */; };
+		C39CD4A317932B6D00F291EE /* scGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CD47417932B6C00F291EE /* scGameViewController.m */; };
+		C39CD4A717932B6D00F291EE /* scHighScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CD47C17932B6C00F291EE /* scHighScoresViewController.m */; };
+		C39CD4A817932B6D00F291EE /* scHugeTidalWave.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CD47E17932B6C00F291EE /* scHugeTidalWave.m */; };
+		C39CD4AA17932B6D00F291EE /* scSeaweed.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CD48217932B6C00F291EE /* scSeaweed.m */; };
+		C39CD4AB17932B6D00F291EE /* scViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CD48417932B6C00F291EE /* scViewController.m */; };
+		C39CD4AC17932B6D00F291EE /* ssBeach.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CD48617932B6C00F291EE /* ssBeach.m */; };
+		C39CD4AD17932B6D00F291EE /* ssBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CD48817932B6D00F291EE /* ssBlock.m */; };
+		C39CD4AE17932B6D00F291EE /* ssMermaid.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CD48A17932B6D00F291EE /* ssMermaid.m */; };
+		C39CD4AF17932B6D00F291EE /* ssSeaGold.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CD48C17932B6D00F291EE /* ssSeaGold.m */; };
+		C39CD4B017932B6D00F291EE /* ssShark.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CD48E17932B6D00F291EE /* ssShark.m */; };
+		C39CD4B117932B6D00F291EE /* ssSurfer.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CD49017932B6D00F291EE /* ssSurfer.m */; };
+		C39CD4B217932B6D00F291EE /* ssWater.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CD49217932B6D00F291EE /* ssWater.m */; };
+		C39CD4B317932B6D00F291EE /* SurferCat.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD49317932B6D00F291EE /* SurferCat.png */; };
+		C39CD4B417932B6D00F291EE /* Wave1.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD49417932B6D00F291EE /* Wave1.png */; };
+		C39CD4B517932B6D00F291EE /* Wave2.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD49517932B6D00F291EE /* Wave2.png */; };
+		C39CD4B617932B6D00F291EE /* Wave3.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD49617932B6D00F291EE /* Wave3.png */; };
+		C39CD4BA17932DD500F291EE /* Seaweed.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD4B917932DD500F291EE /* Seaweed.png */; };
+		C39CD4BC17932E9F00F291EE /* Shark.png in Resources */ = {isa = PBXBuildFile; fileRef = C39CD4BB17932E9F00F291EE /* Shark.png */; };
+		C39CD4C21793621400F291EE /* GCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CD4C11793621400F291EE /* GCHelper.m */; };
+		C39CD4C41793669400F291EE /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39CD4C31793669400F291EE /* GameKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C39D012E1795CBD90090F3A4 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D012D1795CBD90090F3A4 /* Event.m */; };
+		C39D013417960CF40090F3A4 /* DetailedEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D013317960CF40090F3A4 /* DetailedEvent.m */; };
+		C39D013A1796731E0090F3A4 /* Cat1.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D01351796731D0090F3A4 /* Cat1.png */; };
+		C39D013C1796731E0090F3A4 /* CatsBackYo.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D01371796731D0090F3A4 /* CatsBackYo.png */; };
+		C39D013D1796731E0090F3A4 /* Octopus.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D01381796731D0090F3A4 /* Octopus.png */; };
+		C39D013E1796731E0090F3A4 /* SmallOctopus.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D01391796731D0090F3A4 /* SmallOctopus.png */; };
+		C39D0140179676B10090F3A4 /* Cat2.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D013F179676B10090F3A4 /* Cat2.png */; };
+		C39D7D5D1798C9CF0001DA86 /* ssBigOctopus.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D7D5C1798C9CF0001DA86 /* ssBigOctopus.m */; };
+		C39D7D601798CD810001DA86 /* ssSmallOctopus.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D7D5F1798CD810001DA86 /* ssSmallOctopus.m */; };
+		C39D7D66179907E40001DA86 /* Tentacle1.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D7D61179907E30001DA86 /* Tentacle1.png */; };
+		C39D7D67179907E40001DA86 /* Tentacle2.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D7D62179907E30001DA86 /* Tentacle2.png */; };
+		C39D7D68179907E40001DA86 /* Tentacle3.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D7D63179907E40001DA86 /* Tentacle3.png */; };
+		C39D7D69179907E40001DA86 /* Tentacle4.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D7D64179907E40001DA86 /* Tentacle4.png */; };
+		C39D7D6A179907E40001DA86 /* Tentacle5.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D7D65179907E40001DA86 /* Tentacle5.png */; };
+		C39D7D6C17990C010001DA86 /* TentacleBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D7D6B17990C000001DA86 /* TentacleBlock.png */; };
+		C39D7D6E179910160001DA86 /* TentacleCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D7D6D179910160001DA86 /* TentacleCircle.png */; };
+		C39D7D70179913FB0001DA86 /* TentacleCircle2.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D7D6F179913FA0001DA86 /* TentacleCircle2.png */; };
+		C39D7D7317991FC90001DA86 /* ccrFireOctopus.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D7D7217991FC90001DA86 /* ccrFireOctopus.m */; };
+		C39D888F179486FB00C6F702 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D888E179486FB00C6F702 /* Default@2x.png */; };
+		C39D889317949F6300C6F702 /* SeaGold.png in Resources */ = {isa = PBXBuildFile; fileRef = C39D889217949F6300C6F702 /* SeaGold.png */; };
+		C39D889F179516B900C6F702 /* ccrHighScoresDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D889E179516B900C6F702 /* ccrHighScoresDetailViewController.m */; };
+		C3A537E017D394F500241CF0 /* NewestSurferLogo72.png in Resources */ = {isa = PBXBuildFile; fileRef = C300BC2E17CC2EAF00C165DE /* NewestSurferLogo72.png */; };
+		C3B04A57179C8CCB00B19E22 /* GlobalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B04A56179C8CCB00B19E22 /* GlobalInfo.m */; };
+		C3B2F091179F120600C70298 /* LightBlueBack.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B2F090179F120600C70298 /* LightBlueBack.png */; };
+		C3B2F095179F148D00C70298 /* ccrDifficultyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B2F094179F148D00C70298 /* ccrDifficultyButton.m */; };
+		C3B2F097179F2F0200C70298 /* YellowBeach.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B2F096179F2F0200C70298 /* YellowBeach.png */; };
+		C3DF98BF179A17D80033B39E /* ccrHeaderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DF98BE179A17D80033B39E /* ccrHeaderLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C300BC2E17CC2EAF00C165DE /* NewestSurferLogo72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewestSurferLogo72.png; sourceTree = "<group>"; };
+		C37BF6241797557300D95501 /* ccrAfterGameViewDetailedScoreBreakdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccrAfterGameViewDetailedScoreBreakdown.h; sourceTree = "<group>"; };
+		C37BF6251797557300D95501 /* ccrAfterGameViewDetailedScoreBreakdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccrAfterGameViewDetailedScoreBreakdown.m; sourceTree = "<group>"; };
+		C37BF6271797CD1E00D95501 /* NewestSurferLogo114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewestSurferLogo114.png; sourceTree = "<group>"; };
+		C37BF6291797CD2100D95501 /* NewestSurferLogo57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewestSurferLogo57.png; sourceTree = "<group>"; };
+		C37BF62B1797CDCF00D95501 /* Surfboard1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Surfboard1.png; path = scNewSurferCats/Surfboard1.png; sourceTree = "<group>"; };
+		C37BF62C1797CDCF00D95501 /* Surfboard2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Surfboard2.png; path = scNewSurferCats/Surfboard2.png; sourceTree = "<group>"; };
+		C37BF6321797D11900D95501 /* ccrInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccrInfoViewController.h; sourceTree = "<group>"; };
+		C37BF6331797D11900D95501 /* ccrInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccrInfoViewController.m; sourceTree = "<group>"; };
 		C39CD44017932AF700F291EE /* scNewSurferCats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scNewSurferCats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39CD44317932AF700F291EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C39CD44517932AF700F291EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +110,91 @@
 		C39CD45917932AF700F291EE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C39CD45B17932AF800F291EE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C39CD45E17932AF800F291EE /* scNewSurferCats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = scNewSurferCats.xcdatamodel; sourceTree = "<group>"; };
+		C39CD46517932B6C00F291EE /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background.png; path = scNewSurferCats/Background.png; sourceTree = "<group>"; };
+		C39CD46617932B6C00F291EE /* Beach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Beach.png; path = scNewSurferCats/Beach.png; sourceTree = "<group>"; };
+		C39CD46717932B6C00F291EE /* CircleOfHearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CircleOfHearts.png; path = scNewSurferCats/CircleOfHearts.png; sourceTree = "<group>"; };
+		C39CD46817932B6C00F291EE /* DarkRipplingSea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DarkRipplingSea.png; path = scNewSurferCats/DarkRipplingSea.png; sourceTree = "<group>"; };
+		C39CD46917932B6C00F291EE /* FlashOfLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FlashOfLight.png; path = scNewSurferCats/FlashOfLight.png; sourceTree = "<group>"; };
+		C39CD46A17932B6C00F291EE /* imageViewObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageViewObject.h; sourceTree = "<group>"; };
+		C39CD46B17932B6C00F291EE /* imageViewObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageViewObject.m; sourceTree = "<group>"; };
+		C39CD46C17932B6C00F291EE /* Life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Life.png; path = scNewSurferCats/Life.png; sourceTree = "<group>"; };
+		C39CD46D17932B6C00F291EE /* MeltingRaft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MeltingRaft.png; path = scNewSurferCats/MeltingRaft.png; sourceTree = "<group>"; };
+		C39CD46E17932B6C00F291EE /* Mermaid2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mermaid2.png; path = scNewSurferCats/Mermaid2.png; sourceTree = "<group>"; };
+		C39CD46F17932B6C00F291EE /* ObjectConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectConstants.h; sourceTree = "<group>"; };
+		C39CD47017932B6C00F291EE /* Ocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ocean.png; path = scNewSurferCats/Ocean.png; sourceTree = "<group>"; };
+		C39CD47117932B6C00F291EE /* PurpleGalaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PurpleGalaxy.png; path = scNewSurferCats/PurpleGalaxy.png; sourceTree = "<group>"; };
+		C39CD47217932B6C00F291EE /* Rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rock.png; path = scNewSurferCats/Rock.png; sourceTree = "<group>"; };
+		C39CD47317932B6C00F291EE /* scGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scGameViewController.h; sourceTree = "<group>"; };
+		C39CD47417932B6C00F291EE /* scGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scGameViewController.m; sourceTree = "<group>"; };
+		C39CD47B17932B6C00F291EE /* scHighScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scHighScoresViewController.h; sourceTree = "<group>"; };
+		C39CD47C17932B6C00F291EE /* scHighScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scHighScoresViewController.m; sourceTree = "<group>"; };
+		C39CD47D17932B6C00F291EE /* scHugeTidalWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scHugeTidalWave.h; sourceTree = "<group>"; };
+		C39CD47E17932B6C00F291EE /* scHugeTidalWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scHugeTidalWave.m; sourceTree = "<group>"; };
+		C39CD48117932B6C00F291EE /* scSeaweed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scSeaweed.h; sourceTree = "<group>"; };
+		C39CD48217932B6C00F291EE /* scSeaweed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scSeaweed.m; sourceTree = "<group>"; };
+		C39CD48317932B6C00F291EE /* scViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scViewController.h; sourceTree = "<group>"; };
+		C39CD48417932B6C00F291EE /* scViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scViewController.m; sourceTree = "<group>"; };
+		C39CD48517932B6C00F291EE /* ssBeach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssBeach.h; sourceTree = "<group>"; };
+		C39CD48617932B6C00F291EE /* ssBeach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssBeach.m; sourceTree = "<group>"; };
+		C39CD48717932B6C00F291EE /* ssBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssBlock.h; sourceTree = "<group>"; };
+		C39CD48817932B6D00F291EE /* ssBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssBlock.m; sourceTree = "<group>"; };
+		C39CD48917932B6D00F291EE /* ssMermaid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssMermaid.h; sourceTree = "<group>"; };
+		C39CD48A17932B6D00F291EE /* ssMermaid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssMermaid.m; sourceTree = "<group>"; };
+		C39CD48B17932B6D00F291EE /* ssSeaGold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssSeaGold.h; sourceTree = "<group>"; };
+		C39CD48C17932B6D00F291EE /* ssSeaGold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssSeaGold.m; sourceTree = "<group>"; };
+		C39CD48D17932B6D00F291EE /* ssShark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssShark.h; sourceTree = "<group>"; };
+		C39CD48E17932B6D00F291EE /* ssShark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssShark.m; sourceTree = "<group>"; };
+		C39CD48F17932B6D00F291EE /* ssSurfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssSurfer.h; sourceTree = "<group>"; };
+		C39CD49017932B6D00F291EE /* ssSurfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssSurfer.m; sourceTree = "<group>"; };
+		C39CD49117932B6D00F291EE /* ssWater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssWater.h; sourceTree = "<group>"; };
+		C39CD49217932B6D00F291EE /* ssWater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssWater.m; sourceTree = "<group>"; };
+		C39CD49317932B6D00F291EE /* SurferCat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SurferCat.png; path = scNewSurferCats/SurferCat.png; sourceTree = "<group>"; };
+		C39CD49417932B6D00F291EE /* Wave1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wave1.png; path = scNewSurferCats/Wave1.png; sourceTree = "<group>"; };
+		C39CD49517932B6D00F291EE /* Wave2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wave2.png; path = scNewSurferCats/Wave2.png; sourceTree = "<group>"; };
+		C39CD49617932B6D00F291EE /* Wave3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wave3.png; path = scNewSurferCats/Wave3.png; sourceTree = "<group>"; };
+		C39CD4B917932DD500F291EE /* Seaweed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Seaweed.png; path = scNewSurferCats/Seaweed.png; sourceTree = "<group>"; };
+		C39CD4BB17932E9F00F291EE /* Shark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Shark.png; path = scNewSurferCats/Shark.png; sourceTree = "<group>"; };
+		C39CD4C01793621400F291EE /* GCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCHelper.h; path = ../GCHelper.h; sourceTree = "<group>"; };
+		C39CD4C11793621400F291EE /* GCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCHelper.m; path = ../GCHelper.m; sourceTree = "<group>"; };
+		C39CD4C31793669400F291EE /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		C39D012C1795CBD90090F3A4 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		C39D012D1795CBD90090F3A4 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		C39D013217960CF40090F3A4 /* DetailedEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedEvent.h; sourceTree = "<group>"; };
+		C39D013317960CF40090F3A4 /* DetailedEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedEvent.m; sourceTree = "<group>"; };
+		C39D01351796731D0090F3A4 /* Cat1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cat1.png; path = scNewSurferCats/Cat1.png; sourceTree = "<group>"; };
+		C39D01371796731D0090F3A4 /* CatsBackYo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CatsBackYo.png; path = scNewSurferCats/CatsBackYo.png; sourceTree = "<group>"; };
+		C39D01381796731D0090F3A4 /* Octopus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Octopus.png; path = scNewSurferCats/Octopus.png; sourceTree = "<group>"; };
+		C39D01391796731D0090F3A4 /* SmallOctopus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SmallOctopus.png; path = scNewSurferCats/SmallOctopus.png; sourceTree = "<group>"; };
+		C39D013F179676B10090F3A4 /* Cat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cat2.png; sourceTree = "<group>"; };
+		C39D7D5B1798C9CF0001DA86 /* ssBigOctopus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssBigOctopus.h; sourceTree = "<group>"; };
+		C39D7D5C1798C9CF0001DA86 /* ssBigOctopus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssBigOctopus.m; sourceTree = "<group>"; };
+		C39D7D5E1798CD810001DA86 /* ssSmallOctopus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssSmallOctopus.h; sourceTree = "<group>"; };
+		C39D7D5F1798CD810001DA86 /* ssSmallOctopus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssSmallOctopus.m; sourceTree = "<group>"; };
+		C39D7D61179907E30001DA86 /* Tentacle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tentacle1.png; sourceTree = "<group>"; };
+		C39D7D62179907E30001DA86 /* Tentacle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tentacle2.png; sourceTree = "<group>"; };
+		C39D7D63179907E40001DA86 /* Tentacle3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tentacle3.png; sourceTree = "<group>"; };
+		C39D7D64179907E40001DA86 /* Tentacle4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tentacle4.png; sourceTree = "<group>"; };
+		C39D7D65179907E40001DA86 /* Tentacle5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tentacle5.png; sourceTree = "<group>"; };
+		C39D7D6B17990C000001DA86 /* TentacleBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TentacleBlock.png; sourceTree = "<group>"; };
+		C39D7D6D179910160001DA86 /* TentacleCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TentacleCircle.png; path = scNewSurferCats/TentacleCircle.png; sourceTree = "<group>"; };
+		C39D7D6F179913FA0001DA86 /* TentacleCircle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TentacleCircle2.png; path = scNewSurferCats/TentacleCircle2.png; sourceTree = "<group>"; };
+		C39D7D7117991FC80001DA86 /* ccrFireOctopus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccrFireOctopus.h; sourceTree = "<group>"; };
+		C39D7D7217991FC90001DA86 /* ccrFireOctopus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccrFireOctopus.m; sourceTree = "<group>"; };
+		C39D888A179486E300C6F702 /* SurfLogoWithFrame114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SurfLogoWithFrame114.png; sourceTree = "<group>"; };
+		C39D888C179486F600C6F702 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C39D888E179486FB00C6F702 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C39D88901794871200C6F702 /* SurfLogoWithFrame57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SurfLogoWithFrame57.png; sourceTree = "<group>"; };
+		C39D889217949F6300C6F702 /* SeaGold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeaGold.png; sourceTree = "<group>"; };
+		C39D889D179516B900C6F702 /* ccrHighScoresDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccrHighScoresDetailViewController.h; sourceTree = "<group>"; };
+		C39D889E179516B900C6F702 /* ccrHighScoresDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccrHighScoresDetailViewController.m; sourceTree = "<group>"; };
+		C3B04A55179C8CCB00B19E22 /* GlobalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalInfo.h; sourceTree = "<group>"; };
+		C3B04A56179C8CCB00B19E22 /* GlobalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalInfo.m; sourceTree = "<group>"; };
+		C3B2F090179F120600C70298 /* LightBlueBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightBlueBack.png; sourceTree = "<group>"; };
+		C3B2F093179F148D00C70298 /* ccrDifficultyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccrDifficultyButton.h; sourceTree = "<group>"; };
+		C3B2F094179F148D00C70298 /* ccrDifficultyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccrDifficultyButton.m; sourceTree = "<group>"; };
+		C3B2F096179F2F0200C70298 /* YellowBeach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowBeach.png; sourceTree = "<group>"; };
+		C3DF98BD179A17D80033B39E /* ccrHeaderLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccrHeaderLabel.h; sourceTree = "<group>"; };
+		C3DF98BE179A17D80033B39E /* ccrHeaderLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccrHeaderLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +202,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39CD4C41793669400F291EE /* GameKit.framework in Frameworks */,
 				C39CD44417932AF700F291EE /* UIKit.framework in Frameworks */,
 				C39CD44617932AF700F291EE /* Foundation.framework in Frameworks */,
 				C39CD44817932AF700F291EE /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +216,49 @@
 		C39CD43717932AF700F291EE = {
 			isa = PBXGroup;
 			children = (
+				C37BF6291797CD2100D95501 /* NewestSurferLogo57.png */,
+				C37BF6271797CD1E00D95501 /* NewestSurferLogo114.png */,
+				C39D88901794871200C6F702 /* SurfLogoWithFrame57.png */,
+				C300BC2E17CC2EAF00C165DE /* NewestSurferLogo72.png */,
+				C39D888E179486FB00C6F702 /* Default@2x.png */,
+				C39D888C179486F600C6F702 /* Default-568h@2x.png */,
+				C39D888A179486E300C6F702 /* SurfLogoWithFrame114.png */,
+				C39CD4C31793669400F291EE /* GameKit.framework */,
+				C39CD46517932B6C00F291EE /* Background.png */,
+				C39CD46617932B6C00F291EE /* Beach.png */,
+				C39CD46717932B6C00F291EE /* CircleOfHearts.png */,
+				C3B2F096179F2F0200C70298 /* YellowBeach.png */,
+				C39CD46817932B6C00F291EE /* DarkRipplingSea.png */,
+				C39CD46917932B6C00F291EE /* FlashOfLight.png */,
+				C39CD46C17932B6C00F291EE /* Life.png */,
+				C39D889217949F6300C6F702 /* SeaGold.png */,
+				C39CD46D17932B6C00F291EE /* MeltingRaft.png */,
+				C39CD46E17932B6C00F291EE /* Mermaid2.png */,
+				C39CD47017932B6C00F291EE /* Ocean.png */,
+				C39CD47117932B6C00F291EE /* PurpleGalaxy.png */,
+				C39CD47217932B6C00F291EE /* Rock.png */,
+				C39CD4BB17932E9F00F291EE /* Shark.png */,
+				C39CD4B917932DD500F291EE /* Seaweed.png */,
+				C39CD49317932B6D00F291EE /* SurferCat.png */,
+				C39CD49417932B6D00F291EE /* Wave1.png */,
+				C39CD49517932B6D00F291EE /* Wave2.png */,
+				C39CD49617932B6D00F291EE /* Wave3.png */,
+				C39D01351796731D0090F3A4 /* Cat1.png */,
+				C39D013F179676B10090F3A4 /* Cat2.png */,
+				C39D01371796731D0090F3A4 /* CatsBackYo.png */,
+				C3B2F090179F120600C70298 /* LightBlueBack.png */,
+				C39D01381796731D0090F3A4 /* Octopus.png */,
+				C39D01391796731D0090F3A4 /* SmallOctopus.png */,
+				C37BF62B1797CDCF00D95501 /* Surfboard1.png */,
+				C37BF62C1797CDCF00D95501 /* Surfboard2.png */,
+				C39D7D6B17990C000001DA86 /* TentacleBlock.png */,
+				C39D7D6D179910160001DA86 /* TentacleCircle.png */,
+				C39D7D6F179913FA0001DA86 /* TentacleCircle2.png */,
+				C39D7D61179907E30001DA86 /* Tentacle1.png */,
+				C39D7D62179907E30001DA86 /* Tentacle2.png */,
+				C39D7D63179907E40001DA86 /* Tentacle3.png */,
+				C39D7D64179907E40001DA86 /* Tentacle4.png */,
+				C39D7D65179907E40001DA86 /* Tentacle5.png */,
 				C39CD44B17932AF700F291EE /* scNewSurferCats */,
 				C39CD44217932AF700F291EE /* Frameworks */,
 				C39CD44117932AF700F291EE /* Products */,
@@ -84,9 +287,26 @@
 		C39CD44B17932AF700F291EE /* scNewSurferCats */ = {
 			isa = PBXGroup;
 			children = (
+				C39CD4C01793621400F291EE /* GCHelper.h */,
+				C39CD4C11793621400F291EE /* GCHelper.m */,
+				C3B2F092179F144A00C70298 /* Custom Buttons, Labels, etc */,
+				C39CD47317932B6C00F291EE /* scGameViewController.h */,
+				C39CD47417932B6C00F291EE /* scGameViewController.m */,
+				C37BF6321797D11900D95501 /* ccrInfoViewController.h */,
+				C37BF6331797D11900D95501 /* ccrInfoViewController.m */,
+				C39CD48317932B6C00F291EE /* scViewController.h */,
+				C39CD48417932B6C00F291EE /* scViewController.m */,
 				C39CD45417932AF700F291EE /* ccrAppDelegate.h */,
 				C39CD45517932AF700F291EE /* ccrAppDelegate.m */,
+				C39CD4B717932BB300F291EE /* Objects */,
+				C39CD4B817932BCA00F291EE /* High Score Controllers */,
 				C39CD45D17932AF800F291EE /* scNewSurferCats.xcdatamodeld */,
+				C3B04A55179C8CCB00B19E22 /* GlobalInfo.h */,
+				C3B04A56179C8CCB00B19E22 /* GlobalInfo.m */,
+				C39D013217960CF40090F3A4 /* DetailedEvent.h */,
+				C39D013317960CF40090F3A4 /* DetailedEvent.m */,
+				C39D012C1795CBD90090F3A4 /* Event.h */,
+				C39D012D1795CBD90090F3A4 /* Event.m */,
 				C39CD44C17932AF700F291EE /* Supporting Files */,
 			);
 			path = scNewSurferCats;
@@ -104,6 +324,64 @@
 				C39CD45B17932AF800F291EE /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C39CD4B717932BB300F291EE /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C39CD46A17932B6C00F291EE /* imageViewObject.h */,
+				C39CD46B17932B6C00F291EE /* imageViewObject.m */,
+				C39CD46F17932B6C00F291EE /* ObjectConstants.h */,
+				C39CD47D17932B6C00F291EE /* scHugeTidalWave.h */,
+				C39CD47E17932B6C00F291EE /* scHugeTidalWave.m */,
+				C39CD48117932B6C00F291EE /* scSeaweed.h */,
+				C39CD48217932B6C00F291EE /* scSeaweed.m */,
+				C39CD48517932B6C00F291EE /* ssBeach.h */,
+				C39CD48617932B6C00F291EE /* ssBeach.m */,
+				C39CD48717932B6C00F291EE /* ssBlock.h */,
+				C39CD48817932B6D00F291EE /* ssBlock.m */,
+				C39CD48917932B6D00F291EE /* ssMermaid.h */,
+				C39CD48A17932B6D00F291EE /* ssMermaid.m */,
+				C39CD48B17932B6D00F291EE /* ssSeaGold.h */,
+				C39CD48C17932B6D00F291EE /* ssSeaGold.m */,
+				C39CD48D17932B6D00F291EE /* ssShark.h */,
+				C39CD48E17932B6D00F291EE /* ssShark.m */,
+				C39CD48F17932B6D00F291EE /* ssSurfer.h */,
+				C39CD49017932B6D00F291EE /* ssSurfer.m */,
+				C39CD49117932B6D00F291EE /* ssWater.h */,
+				C39CD49217932B6D00F291EE /* ssWater.m */,
+				C39D7D5B1798C9CF0001DA86 /* ssBigOctopus.h */,
+				C39D7D5C1798C9CF0001DA86 /* ssBigOctopus.m */,
+				C39D7D5E1798CD810001DA86 /* ssSmallOctopus.h */,
+				C39D7D5F1798CD810001DA86 /* ssSmallOctopus.m */,
+				C39D7D7117991FC80001DA86 /* ccrFireOctopus.h */,
+				C39D7D7217991FC90001DA86 /* ccrFireOctopus.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		C39CD4B817932BCA00F291EE /* High Score Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C39CD47B17932B6C00F291EE /* scHighScoresViewController.h */,
+				C39CD47C17932B6C00F291EE /* scHighScoresViewController.m */,
+				C39D889D179516B900C6F702 /* ccrHighScoresDetailViewController.h */,
+				C39D889E179516B900C6F702 /* ccrHighScoresDetailViewController.m */,
+				C37BF6241797557300D95501 /* ccrAfterGameViewDetailedScoreBreakdown.h */,
+				C37BF6251797557300D95501 /* ccrAfterGameViewDetailedScoreBreakdown.m */,
+			);
+			name = "High Score Controllers";
+			sourceTree = "<group>";
+		};
+		C3B2F092179F144A00C70298 /* Custom Buttons, Labels, etc */ = {
+			isa = PBXGroup;
+			children = (
+				C3DF98BD179A17D80033B39E /* ccrHeaderLabel.h */,
+				C3DF98BE179A17D80033B39E /* ccrHeaderLabel.m */,
+				C3B2F093179F148D00C70298 /* ccrDifficultyButton.h */,
+				C3B2F094179F148D00C70298 /* ccrDifficultyButton.m */,
+			);
+			name = "Custom Buttons, Labels, etc";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +440,45 @@
 				C39CD45817932AF700F291EE /* Default.png in Resources */,
 				C39CD45A17932AF700F291EE /* Default@2x.png in Resources */,
 				C39CD45C17932AF800F291EE /* Default-568h@2x.png in Resources */,
+				C39CD49717932B6D00F291EE /* Background.png in Resources */,
+				C39CD49817932B6D00F291EE /* Beach.png in Resources */,
+				C39CD49917932B6D00F291EE /* CircleOfHearts.png in Resources */,
+				C39CD49A17932B6D00F291EE /* DarkRipplingSea.png in Resources */,
+				C39CD49B17932B6D00F291EE /* FlashOfLight.png in Resources */,
+				C39CD49D17932B6D00F291EE /* Life.png in Resources */,
+				C39CD49E17932B6D00F291EE /* MeltingRaft.png in Resources */,
+				C39CD49F17932B6D00F291EE /* Mermaid2.png in Resources */,
+				C39CD4A017932B6D00F291EE /* Ocean.png in Resources */,
+				C39CD4A117932B6D00F291EE /* PurpleGalaxy.png in Resources */,
+				C39CD4A217932B6D00F291EE /* Rock.png in Resources */,
+				C39CD4B317932B6D00F291EE /* SurferCat.png in Resources */,
+				C39CD4B417932B6D00F291EE /* Wave1.png in Resources */,
+				C39CD4B517932B6D00F291EE /* Wave2.png in Resources */,
+				C39CD4B617932B6D00F291EE /* Wave3.png in Resources */,
+				C39CD4BA17932DD500F291EE /* Seaweed.png in Resources */,
+				C39CD4BC17932E9F00F291EE /* Shark.png in Resources */,
+				C39D888F179486FB00C6F702 /* Default@2x.png in Resources */,
+				C39D889317949F6300C6F702 /* SeaGold.png in Resources */,
+				C39D013A1796731E0090F3A4 /* Cat1.png in Resources */,
+				C39D013C1796731E0090F3A4 /* CatsBackYo.png in Resources */,
+				C39D013D1796731E0090F3A4 /* Octopus.png in Resources */,
+				C39D013E1796731E0090F3A4 /* SmallOctopus.png in Resources */,
+				C39D0140179676B10090F3A4 /* Cat2.png in Resources */,
+				C37BF62D1797CDCF00D95501 /* Surfboard1.png in Resources */,
+				C37BF62E1797CDCF00D95501 /* Surfboard2.png in Resources */,
+				C37BF62F1797CFCB00D95501 /* SurfLogoWithFrame57.png in Resources */,
+				C37BF6311797D09700D95501 /* Default-568h@2x.png in Resources */,
+				C39D7D66179907E40001DA86 /* Tentacle1.png in Resources */,
+				C39D7D67179907E40001DA86 /* Tentacle2.png in Resources */,
+				C39D7D68179907E40001DA86 /* Tentacle3.png in Resources */,
+				C39D7D69179907E40001DA86 /* Tentacle4.png in Resources */,
+				C39D7D6A179907E40001DA86 /* Tentacle5.png in Resources */,
+				C39D7D6C17990C010001DA86 /* TentacleBlock.png in Resources */,
+				C39D7D6E179910160001DA86 /* TentacleCircle.png in Resources */,
+				C39D7D70179913FB0001DA86 /* TentacleCircle2.png in Resources */,
+				C3B2F091179F120600C70298 /* LightBlueBack.png in Resources */,
+				C3B2F097179F2F0200C70298 /* YellowBeach.png in Resources */,
+				C3A537E017D394F500241CF0 /* NewestSurferLogo72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +492,31 @@
 				C39CD45217932AF700F291EE /* main.m in Sources */,
 				C39CD45617932AF700F291EE /* ccrAppDelegate.m in Sources */,
 				C39CD45F17932AF800F291EE /* scNewSurferCats.xcdatamodeld in Sources */,
+				C39CD49C17932B6D00F291EE /* imageViewObject.m in Sources */,
+				C39CD4A317932B6D00F291EE /* scGameViewController.m in Sources */,
+				C39CD4A717932B6D00F291EE /* scHighScoresViewController.m in Sources */,
+				C39CD4A817932B6D00F291EE /* scHugeTidalWave.m in Sources */,
+				C39CD4AA17932B6D00F291EE /* scSeaweed.m in Sources */,
+				C39CD4AB17932B6D00F291EE /* scViewController.m in Sources */,
+				C39CD4AC17932B6D00F291EE /* ssBeach.m in Sources */,
+				C39CD4AD17932B6D00F291EE /* ssBlock.m in Sources */,
+				C39CD4AE17932B6D00F291EE /* ssMermaid.m in Sources */,
+				C39CD4AF17932B6D00F291EE /* ssSeaGold.m in Sources */,
+				C39CD4B017932B6D00F291EE /* ssShark.m in Sources */,
+				C39CD4B117932B6D00F291EE /* ssSurfer.m in Sources */,
+				C39CD4B217932B6D00F291EE /* ssWater.m in Sources */,
+				C39CD4C21793621400F291EE /* GCHelper.m in Sources */,
+				C39D889F179516B900C6F702 /* ccrHighScoresDetailViewController.m in Sources */,
+				C39D012E1795CBD90090F3A4 /* Event.m in Sources */,
+				C39D013417960CF40090F3A4 /* DetailedEvent.m in Sources */,
+				C37BF6261797557300D95501 /* ccrAfterGameViewDetailedScoreBreakdown.m in Sources */,
+				C37BF6341797D11A00D95501 /* ccrInfoViewController.m in Sources */,
+				C39D7D5D1798C9CF0001DA86 /* ssBigOctopus.m in Sources */,
+				C39D7D601798CD810001DA86 /* ssSmallOctopus.m in Sources */,
+				C39D7D7317991FC90001DA86 /* ccrFireOctopus.m in Sources */,
+				C3DF98BF179A17D80033B39E /* ccrHeaderLabel.m in Sources */,
+				C3B04A57179C8CCB00B19E22 /* GlobalInfo.m in Sources */,
+				C3B2F095179F148D00C70298 /* ccrDifficultyButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +559,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -242,7 +584,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -253,10 +595,12 @@
 		C39CD46317932AF800F291EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Carl Cota-Robles (55GQ8928ZC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "scNewSurferCats/scNewSurferCats-Prefix.pch";
 				INFOPLIST_FILE = "scNewSurferCats/scNewSurferCats-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "102B370B-7B18-4537-BB16-AAF3579548A9";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -264,10 +608,12 @@
 		C39CD46417932AF800F291EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Carl Cota-Robles (55GQ8928ZC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "scNewSurferCats/scNewSurferCats-Prefix.pch";
 				INFOPLIST_FILE = "scNewSurferCats/scNewSurferCats-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "102B370B-7B18-4537-BB16-AAF3579548A9";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -291,6 +637,7 @@
 				C39CD46417932AF800F291EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
